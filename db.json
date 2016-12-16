@@ -1,0 +1,7 @@
+{
+  "academyGuys": [
+    { "id": 1, "name": "Anett", "brada": false },
+    { "id": 2, "name": "Daniel", "brada": true },
+    { "id": 3, "name": "Daniel", "brada": false }
+  ]
+}
