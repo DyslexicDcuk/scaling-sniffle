@@ -1,7 +1,641 @@
 {
-  "academyGuys": [
-    { "id": 1, "name": "Anett", "brada": false },
-    { "id": 2, "name": "Daniel", "brada": true },
-    { "id": 3, "name": "Daniel", "brada": false }
+  "fuelRequests": [
+    {
+      "id": 0,
+      "vehicleMake": "Aston Martin",
+      "vehicleModel": "DB9",
+      "vehicleYear": "2005",
+      "vehiclePlate": "ZG404NF",
+      "fuelType": "PREMIUM",
+      "customerFirstName": "Damir",
+      "customerLastName": "Šehić",
+      "requestStatus": "ACTIVE"
+    }
+  ],
+  "vehicleTypes": [
+    {
+      "_id": "582a5064de1290b27370f90d",
+      "make": "Aston Martin",
+      "model": "DB9",
+      "year": 2005,
+      "id": "582a5064de1290b27370f90d"
+    },
+    {
+      "_id": "582a5064de1290b27370f90e",
+      "make": "Aston Martin",
+      "model": "DB9",
+      "year": 2006,
+      "id": "582a5064de1290b27370f90e"
+    },
+    {
+      "_id": "582a5064de1290b27370f90f",
+      "make": "Aston Martin",
+      "model": "DB9",
+      "year": 2007,
+      "id": "582a5064de1290b27370f90f"
+    },
+    {
+      "_id": "582a5064de1290b27370f90c",
+      "make": "Aston Martin",
+      "model": "DB7",
+      "year": 2003,
+      "id": "582a5064de1290b27370f90c"
+    },
+    {
+      "_id": "582a5064de1290b27370f910",
+      "make": "Aston Martin",
+      "model": "DB9",
+      "year": 2008,
+      "id": "582a5064de1290b27370f910"
+    },
+    {
+      "_id": "582a5064de1290b27370f90b",
+      "make": "Aston Martin",
+      "model": "DB7",
+      "year": 2002,
+      "id": "582a5064de1290b27370f90b"
+    },
+    {
+      "_id": "582a5064de1290b27370f911",
+      "make": "Aston Martin",
+      "model": "DB9",
+      "year": 2009,
+      "id": "582a5064de1290b27370f911"
+    },
+    {
+      "_id": "582a5064de1290b27370f932",
+      "make": "Aston Martin",
+      "model": "Virage",
+      "year": 2012,
+      "id": "582a5064de1290b27370f932"
+    },
+    {
+      "_id": "582a5064de1290b27370f931",
+      "make": "Aston Martin",
+      "model": "Virage",
+      "year": 2011,
+      "id": "582a5064de1290b27370f931"
+    },
+    {
+      "_id": "582a5064de1290b27370f930",
+      "make": "Aston Martin",
+      "model": "Vanquish",
+      "year": 2014,
+      "id": "582a5064de1290b27370f930"
+    },
+    {
+      "_id": "582a5064de1290b27370f90a",
+      "make": "Aston Martin",
+      "model": "DB7",
+      "year": 2001,
+      "id": "582a5064de1290b27370f90a"
+    },
+    {
+      "_id": "582a5064de1290b27370f92d",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2012,
+      "id": "582a5064de1290b27370f92d"
+    },
+    {
+      "_id": "582a5064de1290b27370f92c",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2011,
+      "id": "582a5064de1290b27370f92c"
+    },
+    {
+      "_id": "582a5064de1290b27370f92e",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2013,
+      "id": "582a5064de1290b27370f92e"
+    },
+    {
+      "_id": "582a5064de1290b27370f92b",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2010,
+      "id": "582a5064de1290b27370f92b"
+    },
+    {
+      "_id": "582a5064de1290b27370f92a",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2009,
+      "id": "582a5064de1290b27370f92a"
+    },
+    {
+      "_id": "582a5064de1290b27370f928",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2007,
+      "id": "582a5064de1290b27370f928"
+    },
+    {
+      "_id": "582a5064de1290b27370f927",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2006,
+      "id": "582a5064de1290b27370f927"
+    },
+    {
+      "_id": "582a5064de1290b27370f92f",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2014,
+      "id": "582a5064de1290b27370f92f"
+    },
+    {
+      "_id": "582a5064de1290b27370f929",
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "year": 2008,
+      "id": "582a5064de1290b27370f929"
+    },
+    {
+      "_id": "582a5064de1290b27370f70f",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2008,
+      "id": "582a5064de1290b27370f70f"
+    },
+    {
+      "_id": "582a5064de1290b27370f754",
+      "make": "Audi",
+      "model": "RS 5",
+      "year": 2015,
+      "id": "582a5064de1290b27370f754"
+    },
+    {
+      "_id": "582a5064de1290b27370f755",
+      "make": "Audi",
+      "model": "RS 6",
+      "year": 2003,
+      "id": "582a5064de1290b27370f755"
+    },
+    {
+      "_id": "582a5064de1290b27370f710",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2009,
+      "id": "582a5064de1290b27370f710"
+    },
+    {
+      "_id": "582a5064de1290b27370f6d3",
+      "make": "Audi",
+      "model": "S8",
+      "year": 2002,
+      "id": "582a5064de1290b27370f6d3"
+    },
+    {
+      "_id": "582a5064de1290b27370f756",
+      "make": "Audi",
+      "model": "RS 7",
+      "year": 2014,
+      "id": "582a5064de1290b27370f756"
+    },
+    {
+      "_id": "582a5064de1290b27370f757",
+      "make": "Audi",
+      "model": "RS 7",
+      "year": 2015,
+      "id": "582a5064de1290b27370f757"
+    },
+    {
+      "_id": "582a5064de1290b27370f711",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2010,
+      "id": "582a5064de1290b27370f711"
+    },
+    {
+      "_id": "582a5064de1290b27370f758",
+      "make": "Audi",
+      "model": "S3",
+      "year": 2015,
+      "id": "582a5064de1290b27370f758"
+    },
+    {
+      "_id": "582a5064de1290b27370f973",
+      "make": "Audi",
+      "model": "TT",
+      "year": 2002,
+      "id": "582a5064de1290b27370f973"
+    },
+    {
+      "_id": "582a5064de1290b27370f759",
+      "make": "Audi",
+      "model": "S4",
+      "year": 1992,
+      "id": "582a5064de1290b27370f759"
+    },
+    {
+      "_id": "582a5064de1290b27370f712",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2011,
+      "id": "582a5064de1290b27370f712"
+    },
+    {
+      "_id": "582a5064de1290b27370f6dc",
+      "make": "Audi",
+      "model": "SQ5",
+      "year": 2015,
+      "id": "582a5064de1290b27370f6dc"
+    },
+    {
+      "_id": "582a5064de1290b27370f75a",
+      "make": "Audi",
+      "model": "S4",
+      "year": 1993,
+      "id": "582a5064de1290b27370f75a"
+    },
+    {
+      "_id": "582a5064de1290b27370f75b",
+      "make": "Audi",
+      "model": "S4",
+      "year": 1994,
+      "id": "582a5064de1290b27370f75b"
+    },
+    {
+      "_id": "582a5064de1290b27370f713",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2012,
+      "id": "582a5064de1290b27370f713"
+    },
+    {
+      "_id": "582a5064de1290b27370f75c",
+      "make": "Audi",
+      "model": "S4",
+      "year": 2000,
+      "id": "582a5064de1290b27370f75c"
+    },
+    {
+      "_id": "582a5064de1290b27370f75d",
+      "make": "Audi",
+      "model": "S4",
+      "year": 2001,
+      "id": "582a5064de1290b27370f75d"
+    },
+    {
+      "_id": "582a5064de1290b27370f714",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2013,
+      "id": "582a5064de1290b27370f714"
+    },
+    {
+      "_id": "582a5064de1290b27370f75e",
+      "make": "Audi",
+      "model": "S4",
+      "year": 2002,
+      "id": "582a5064de1290b27370f75e"
+    },
+    {
+      "_id": "582a5064de1290b27370f75f",
+      "make": "Audi",
+      "model": "S4",
+      "year": 2004,
+      "id": "582a5064de1290b27370f75f"
+    },
+    {
+      "_id": "582a5064de1290b27370facf",
+      "make": "Chevrolet",
+      "model": "Astro",
+      "year": 2004,
+      "id": "582a5064de1290b27370facf"
+    },
+    {
+      "_id": "582a5064de1290b27370fad0",
+      "make": "Chevrolet",
+      "model": "Astro",
+      "year": 2005,
+      "id": "582a5064de1290b27370fad0"
+    },
+    {
+      "_id": "582a5064de1290b27370fad1",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1990,
+      "id": "582a5064de1290b27370fad1"
+    },
+    {
+      "_id": "582a5064de1290b27370fad2",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1992,
+      "id": "582a5064de1290b27370fad2"
+    },
+    {
+      "_id": "582a5064de1290b27370fad3",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1991,
+      "id": "582a5064de1290b27370fad3"
+    },
+    {
+      "_id": "582a5064de1290b27370fad4",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1993,
+      "id": "582a5064de1290b27370fad4"
+    },
+    {
+      "_id": "582a5064de1290b27370fad5",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1994,
+      "id": "582a5064de1290b27370fad5"
+    },
+    {
+      "_id": "582a5064de1290b27370fad6",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1995,
+      "id": "582a5064de1290b27370fad6"
+    },
+    {
+      "_id": "582a5064de1290b27370fad7",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1997,
+      "id": "582a5064de1290b27370fad7"
+    },
+    {
+      "_id": "582a5064de1290b27370fad8",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1996,
+      "id": "582a5064de1290b27370fad8"
+    },
+    {
+      "_id": "582a5064de1290b27370fad9",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1998,
+      "id": "582a5064de1290b27370fad9"
+    },
+    {
+      "_id": "582a5064de1290b27370fada",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 1999,
+      "id": "582a5064de1290b27370fada"
+    },
+    {
+      "_id": "582a5064de1290b27370fadb",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 2000,
+      "id": "582a5064de1290b27370fadb"
+    },
+    {
+      "_id": "582a5064de1290b27370fadc",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 2002,
+      "id": "582a5064de1290b27370fadc"
+    },
+    {
+      "_id": "582a5064de1290b27370fadd",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 2001,
+      "id": "582a5064de1290b27370fadd"
+    },
+    {
+      "_id": "582a5064de1290b27370fade",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 2003,
+      "id": "582a5064de1290b27370fade"
+    },
+    {
+      "_id": "582a5064de1290b27370fadf",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 2004,
+      "id": "582a5064de1290b27370fadf"
+    },
+    {
+      "_id": "582a5064de1290b27370fae0",
+      "make": "Chevrolet",
+      "model": "Astro Cargo",
+      "year": 2005,
+      "id": "582a5064de1290b27370fae0"
+    },
+    {
+      "_id": "582a5064de1290b27370fae1",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2003,
+      "id": "582a5064de1290b27370fae1"
+    },
+    {
+      "_id": "582a5064de1290b27370fae2",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2002,
+      "id": "582a5064de1290b27370fae2"
+    },
+    {
+      "_id": "582a5064de1290b27370fae3",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2004,
+      "id": "582a5064de1290b27370fae3"
+    },
+    {
+      "_id": "582a5064de1290b27370fae4",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2005,
+      "id": "582a5064de1290b27370fae4"
+    },
+    {
+      "_id": "582a5064de1290b27370fae5",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2006,
+      "id": "582a5064de1290b27370fae5"
+    },
+    {
+      "_id": "582a5064de1290b27370fae6",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2008,
+      "id": "582a5064de1290b27370fae6"
+    },
+    {
+      "_id": "582a5064de1290b27370fae7",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2007,
+      "id": "582a5064de1290b27370fae7"
+    },
+    {
+      "_id": "582a5064de1290b27370fae8",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2009,
+      "id": "582a5064de1290b27370fae8"
+    },
+    {
+      "_id": "582a5064de1290b27370fae9",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2010,
+      "id": "582a5064de1290b27370fae9"
+    },
+    {
+      "_id": "582a5064de1290b27370faea",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2011,
+      "id": "582a5064de1290b27370faea"
+    },
+    {
+      "_id": "582a5064de1290b27370faeb",
+      "make": "Chevrolet",
+      "model": "Aveo",
+      "year": 2004,
+      "id": "582a5064de1290b27370faeb"
+    },
+    {
+      "_id": "582a5064de1290b27370faec",
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "year": 2012,
+      "id": "582a5064de1290b27370faec"
+    },
+    {
+      "_id": "582a5064de1290b27370faed",
+      "make": "Chevrolet",
+      "model": "Aveo",
+      "year": 2005,
+      "id": "582a5064de1290b27370faed"
+    },
+    {
+      "_id": "582a5064de1290b27370faee",
+      "make": "Chevrolet",
+      "model": "Aveo",
+      "year": 2006,
+      "id": "582a5064de1290b27370faee"
+    },
+    {
+      "_id": "582a5064de1290b27370faef",
+      "make": "Chevrolet",
+      "model": "Aveo",
+      "year": 2007,
+      "id": "582a5064de1290b27370faef"
+    },
+    {
+      "_id": "582a5064de1290b27370faf0",
+      "make": "Chevrolet",
+      "model": "Aveo",
+      "year": 2009,
+      "id": "582a5064de1290b27370faf0"
+    },
+    {
+      "_id": "582a5064de1290b27370faf1",
+      "make": "Chevrolet",
+      "model": "Aveo",
+      "year": 2008,
+      "id": "582a5064de1290b27370faf1"
+    },
+    {
+      "_id": "582a5064de1290b27370faf2",
+      "make": "Chevrolet",
+      "model": "Aveo",
+      "year": 2010,
+      "id": "582a5064de1290b27370faf2"
+    },
+    {
+      "_id": "582a5064de1290b27370ff07",
+      "make": "FIAT",
+      "model": "500",
+      "year": 2012,
+      "id": "582a5064de1290b27370ff07"
+    },
+    {
+      "_id": "582a5064de1290b27370ff08",
+      "make": "FIAT",
+      "model": "500",
+      "year": 2013,
+      "id": "582a5064de1290b27370ff08"
+    },
+    {
+      "_id": "582a5064de1290b27370ff09",
+      "make": "FIAT",
+      "model": "500",
+      "year": 2014,
+      "id": "582a5064de1290b27370ff09"
+    },
+    {
+      "_id": "582a5064de1290b27370ff0a",
+      "make": "FIAT",
+      "model": "500L",
+      "year": 2014,
+      "id": "582a5064de1290b27370ff0a"
+    },
+    {
+      "_id": "582a5064de1290b27370ff0b",
+      "make": "FIAT",
+      "model": "500",
+      "year": 2015,
+      "id": "582a5064de1290b27370ff0b"
+    },
+    {
+      "_id": "582a5064de1290b27370ff0c",
+      "make": "FIAT",
+      "model": "500L",
+      "year": 2015,
+      "id": "582a5064de1290b27370ff0c"
+    },
+    {
+      "_id": "582a5064de1290b27370ff0d",
+      "make": "FIAT",
+      "model": "500X",
+      "year": 2016,
+      "id": "582a5064de1290b27370ff0d"
+    },
+    {
+      "_id": "582a5064de1290b27370ff0e",
+      "make": "FIAT",
+      "model": "500e",
+      "year": 2013,
+      "id": "582a5064de1290b27370ff0e"
+    },
+    {
+      "_id": "582a5064de1290b27370ff10",
+      "make": "FIAT",
+      "model": "500e",
+      "year": 2014,
+      "id": "582a5064de1290b27370ff10"
+    }
+  ],
+  "links": [
+    {
+      "id": 0,
+      "title": "New Digihey - 1482235878859",
+      "url": "http://www.digihey.com/1482235878859"
+    },
+    {
+      "id": 1,
+      "title": "Google",
+      "url": "https://www.google.com"
+    },
+    {
+      "title": "New Title - 1482235841671",
+      "url": "http://www.1482235841671.com",
+      "id": 2
+    },
+    {
+      "title": "New Title - 1482235977223",
+      "url": "http://www.1482235977223.com",
+      "id": 3
+    }
   ]
 }
